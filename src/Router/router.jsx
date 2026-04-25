@@ -1,53 +1,34 @@
 import React from 'react';
-import { createBrowserRouter ,  } from "react-router";
-import root from '../Pages/Roots/root';
-import Home from '../Pages/Home';
-import indus from '../Pages/indus';
-import Features from '../Pages/features';
-import Pricing from '../Pages/Pricing';
-import NewsLetter from '../Pages/NewsLetter';
-import Integrations from '../Pages/Integrations';
-import About from '../Pages/About';
+import { createBrowserRouter, } from "react-router";
+import { RouterProvider } from "react-router/dom";
+import root from '../Roots/root';
+import Home from '@/Pages/Home';
+import About from '@/Pages/About';
+import Contact from '@/Pages/Contact';
+
+
 
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: root ,
-    children:[
-        {
-            index:true,
-            path: "/",
-            Component:Home ,
-        },
-        {
-            path:"/indus",
-            Component:indus,
-        },
-
-        {
-          path:"/features",
-          Component: Features ,
-        },
-
-        {
-          path:"/pricing",
-          Component : Pricing ,
-        },
-
-        {
-         path: "/newsLetter",
-         Component: NewsLetter
-        },
-        
-        {
-          path:"/integrations",
-          Component: Integrations,
-        },
+    Component: root,
+    children: [
       {
-        path : "/about",
-        Component: About
+        index: true,
+        path: "/",
+        Component: Home,
       },
+      {
+        path: "/about",
+        Component: About,
+      },
+      {
+        path: "/contact",
+        Component: Contact,
+      },
+      
+      
 
     ]
   },
