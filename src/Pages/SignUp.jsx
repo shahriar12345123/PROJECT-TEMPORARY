@@ -1,24 +1,101 @@
-import React from 'react';
-
+import React, { useState } from "react";
+import { Link } from "react-router";
 const SignUp = () => {
+    const [form, setForm] = useState({
+        name: "",
+        email: "",
+        password: "",
+    });
+
+    const handleChange = (e) => {
+        setForm({ ...form, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(form);
+    };
+
     return (
-        <div>
-            <h2>Sign Up</h2>
-            <form>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" />
+        <div className="min-h-screen flex items-center justify-center bg-gray-950 px-4 py-10">
+
+            {/* Card */}
+            <div className="w-full max-w-sm sm:max-w-md md:max-w-lg bg-gray-900 border border-gray-800 rounded-2xl p-6 sm:p-8 shadow-2xl">
+
+                {/* Header */}
+                <div className="text-center mb-6 sm:mb-8">
+                    <h2 className="text-2xl sm:text-3xl font-bold text-white">
+                        Create Account
+                    </h2>
+                    <p className="text-gray-400 text-xs sm:text-sm mt-2">
+                        Join our SaaS platform and start building faster
+                    </p>
                 </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" />
-                </div>
-                <div>
-                    <label htmlFor="password">Password:</label>
-                    <input type="password" id="password" />
-                </div>
-                <button type="submit">Sign Up</button>
-            </form>
+
+                {/* Form */}
+                <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
+
+                    {/* Name */}
+                    <div>
+                        <label className="text-xs sm:text-sm text-gray-300">Name</label>
+                        <input
+                            name="name"
+                            value={form.name}
+                            onChange={handleChange}
+                            type="text"
+                            placeholder="Your name"
+                            className="w-full mt-2 px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base rounded-lg bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-purple-500 transition"
+                        />
+                    </div>
+
+                    {/* Email */}
+                    <div>
+                        <label className="text-xs sm:text-sm text-gray-300">Email</label>
+                        <input
+                            name="email"
+                            value={form.email}
+                            onChange={handleChange}
+                            type="email"
+                            placeholder="you@example.com"
+                            className="w-full mt-2 px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base rounded-lg bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-purple-500 transition"
+                        />
+                    </div>
+
+                    {/* Password */}
+                    <div>
+                        <label className="text-xs sm:text-sm text-gray-300">Password</label>
+                        <input
+                            name="password"
+                            value={form.password}
+                            onChange={handleChange}
+                            type="password"
+                            placeholder="••••••••"
+                            className="w-full mt-2 px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base rounded-lg bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-purple-500 transition"
+                        />
+                    </div>
+
+                    {/* Button */}
+                    <button
+                        type="submit"
+                        className="w-full py-2 sm:py-3 rounded-lg bg-purple-600 hover:bg-purple-700 text-white font-semibold transition text-sm sm:text-base"
+                    >
+                        Create Account
+                    </button>
+
+                    {/* Footer */}
+                    <p className="text-center text-xs sm:text-sm text-gray-400 mt-3 sm:mt-4">
+                        Already have an account?{" "}
+                        <Link
+                            to="/login"
+                            className="text-purple-400 cursor-pointer hover:underline"
+                        >
+                            Login
+                        </Link>
+                    </p>
+
+                </form>
+            </div>
+
         </div>
     );
 };
