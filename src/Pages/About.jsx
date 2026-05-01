@@ -403,7 +403,7 @@ export default function About() {
       />
     </motion.div>
 
-    {/* 🧊 CONTENT */}
+    {/*  CONTENT */}
     <motion.div
       initial={{ opacity: 0, x: 60 }}
       whileInView={{ opacity: 1, x: 0 }}

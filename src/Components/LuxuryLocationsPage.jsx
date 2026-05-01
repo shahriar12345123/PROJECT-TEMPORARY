@@ -18,7 +18,7 @@ export default function LuxuryLocationsPage() {
         <section className="min-h-screen bg-black text-white py-16 px-6">
             <div className="max-w-7xl mx-auto">
 
-                {/* 🔝 Heading */}
+                {/*  Heading */}
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">
                     Find Your Ideal Luxury Property
                 </h1>
@@ -28,7 +28,7 @@ export default function LuxuryLocationsPage() {
                     across the world's most prestigious destinations.
                 </p>
 
-                {/* 🏠 Property Types */}
+                {/*  Property Types */}
                 <h2 className="text-2xl font-semibold mb-6">Property Types</h2>
 
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
@@ -44,7 +44,7 @@ export default function LuxuryLocationsPage() {
 
                
 
-                {/* 📍 Empty State */}
+                {/*  Empty State */}
                 <div className="text-gray-500 text-center mt-10">
                     No locations available
                 </div>

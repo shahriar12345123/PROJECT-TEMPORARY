@@ -36,9 +36,9 @@ const Newsletter = () => {
           </p>
 
           <div className="flex justify-center gap-6 mt-6 text-sm text-gray-500">
-            <span>🚀 Weekly Updates</span>
-            <span>🤖 AI Trends</span>
-            <span>📈 Growth Hacks</span>
+            <span> Weekly Updates</span>
+            <span> AI Trends</span>
+            <span> Growth Hacks</span>
           </div>
         </div>
 

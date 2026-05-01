@@ -87,7 +87,7 @@ const Navbar = () => {
         <li><NavLink to="/contact" className={navItemClass}>Contact</NavLink></li>
       </ul>
 
-      {/* ✅ Desktop CTA */}
+      {/*  Desktop CTA */}
       <div className="hidden md:flex gap-4">
         <NavLink
           to="/login"
@@ -124,7 +124,7 @@ const Navbar = () => {
         {open ? <X size={28} /> : <Menu size={28} />}
       </button>
 
-      {/* ✅ Mobile Menu */}
+      {/*  Mobile Menu */}
       <div
         className={`absolute top-full left-0 w-full bg-white shadow-md transition-all duration-300 z-40
         ${open ? "max-h-[600px] py-6" : "max-h-0 overflow-hidden"}

@@ -19,7 +19,7 @@ const LuxuryDetails = () => {
   return (
     <div className="min-h-screen bg-black text-white p-6">
 
-      {/* 🔙 BACK BUTTON (TOP LEFT) */}
+      {/*  BACK BUTTON (TOP LEFT) */}
       <button
         onClick={() => navigate(-1)}
         className="mb-6 px-4 py-2 bg-white text-black rounded-lg hover:bg-gray-300 transition"

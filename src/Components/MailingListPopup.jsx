@@ -6,9 +6,9 @@ export default function MailingListPopup({ onClose }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // চাইলে এখানে API call করতে পারো
+   
 
-    onClose(); // popup বন্ধ
+    onClose(); // popup close 
   };
 
   return (

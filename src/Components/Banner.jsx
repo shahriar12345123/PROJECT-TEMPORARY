@@ -10,7 +10,7 @@ const videos = [video1, video2];
 const Banner = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // 🔁 Auto slide (10 sec)
+  //  Auto slide (10 sec)
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % videos.length);
@@ -38,7 +38,7 @@ const Banner = () => {
     h-[50vh] sm:h-[55vh] md:h-[65vh] lg:h-[70vh] 
     overflow-hidden rounded-lg md:rounded-xl">
 
-      {/* 🎥 Video */}
+      {/*  Video */}
       <video
         key={currentIndex}
         src={videos[currentIndex]}
@@ -49,10 +49,10 @@ const Banner = () => {
         className="absolute w-full h-full object-cover"
       />
 
-      {/* 🖤 Overlay */}
+      {/*  Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
       {/* change z-10 to 0 */}
-      {/* 📝 Content */}
+      {/*  Content */}
       <div className="relative z-0 flex flex-col justify-center items-center h-full text-center text-white px-4">
 
         <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4">
@@ -65,7 +65,7 @@ const Banner = () => {
 
       </div>
       {/* chane z-20 to 0  */}
-      {/* ⬅️ Left Arrow */}
+      {/*  Left Arrow */}
       <button
         onClick={prevSlide}
         className="absolute left-2 sm:left-3 md:left-4 top-1/2 -translate-y-1/2 z-0
@@ -78,7 +78,7 @@ const Banner = () => {
         <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" strokeWidth={2.5} />
       </button>
       {/* z-20 to 0 */}
-      {/* ➡️ Right Arrow */}
+      {/* Right Arrow */}
       <button
         onClick={nextSlide}
         className="absolute right-2 sm:right-3 md:right-4 top-1/2 -translate-y-1/2 z-0
@@ -91,7 +91,7 @@ const Banner = () => {
         <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" strokeWidth={2.5} />
       </button>
       {/* change z-20 to 0 */}
-      {/* 🔘 Dots */}
+      {/*  Dots */}
       <div className="absolute bottom-3 sm:bottom-4 md:bottom-5 left-1/2 -translate-x-1/2 flex gap-2 sm:gap-3 z-0">
         {videos.map((_, index) => (
           <button
