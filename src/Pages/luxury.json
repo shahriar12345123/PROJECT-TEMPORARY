@@ -1,0 +1,215 @@
+[
+  {
+    "id": "island-001",
+    "title": "Crystal Lagoon Private Island",
+    "category": "Island",
+    "price": 3200000,
+    "location": "Maldives",
+    "shortDescription": "Exclusive private island with turquoise lagoon.",
+    "description": "A fully private luxury island featuring crystal-clear water, private beach, and ultra-modern villa setup. Perfect for elite vacation experience.",
+    "images": [
+      "https://i.ibb.co/island1.jpg"
+    ]
+  },
+  {
+    "id": "island-002",
+    "title": "Emerald Paradise Island",
+    "category": "Island",
+    "price": 2800000,
+    "location": "Bahamas",
+    "shortDescription": "Green tropical island surrounded by ocean.",
+    "description": "A lush green island with luxury eco-resort facilities and private docking area.",
+    "images": [
+      "https://i.ibb.co/island2.jpg"
+    ]
+  },
+
+  {
+    "id": "car-001",
+    "title": "Lamborghini Aventador SVJ",
+    "category": "Cars",
+    "price": 750000,
+    "location": "Dubai",
+    "shortDescription": "V12 supercar with extreme performance.",
+    "description": "One of the most powerful Lamborghini models with aerodynamic design and insane speed.",
+    "images": [
+      "https://i.ibb.co/car1.jpg"
+    ]
+  },
+  {
+    "id": "car-002",
+    "title": "Rolls Royce Phantom 2025",
+    "category": "Cars",
+    "price": 520000,
+    "location": "London",
+    "shortDescription": "Ultimate luxury sedan experience.",
+    "description": "Handcrafted interior with premium comfort and royal-class driving experience.",
+    "images": [
+      "https://i.ibb.co/car2.jpg"
+    ]
+  },
+  {
+    "id": "car-003",
+    "title": "Ferrari SF90 Stradale",
+    "category": "Cars",
+    "price": 600000,
+    "location": "Italy",
+    "shortDescription": "Hybrid hypercar with futuristic design.",
+    "description": "Combines electric and V8 engine delivering insane acceleration and speed.",
+    "images": [
+      "https://i.ibb.co/car3.jpg"
+    ]
+  },
+
+  {
+    "id": "villa-001",
+    "title": "Ocean View Royal Villa",
+    "category": "Villa",
+    "price": 1500000,
+    "location": "Santorini",
+    "shortDescription": "Luxury cliffside villa with ocean view.",
+    "description": "White architecture villa with infinity pool overlooking the sea.",
+    "images": [
+      "https://i.ibb.co/villa1.jpg"
+    ]
+  },
+  {
+    "id": "villa-002",
+    "title": "Dubai Palm Villa Mansion",
+    "category": "Villa",
+    "price": 4000000,
+    "location": "Dubai",
+    "shortDescription": "Ultra luxury palm island villa.",
+    "description": "Private beach access, modern architecture, and smart home system.",
+    "images": [
+      "https://i.ibb.co/villa2.jpg"
+    ]
+  },
+
+  {
+    "id": "penthouse-001",
+    "title": "Skyline Penthouse Elite",
+    "category": "Penthouse",
+    "price": 2500000,
+    "location": "New York",
+    "shortDescription": "Top floor city skyline penthouse.",
+    "description": "Glass walls, private elevator, and panoramic city view.",
+    "images": [
+      "https://i.ibb.co/pent1.jpg"
+    ]
+  },
+  {
+    "id": "penthouse-002",
+    "title": "Tokyo Sky Luxury Penthouse",
+    "category": "Penthouse",
+    "price": 1800000,
+    "location": "Tokyo",
+    "shortDescription": "Modern Japanese luxury penthouse.",
+    "description": "Minimalist design with smart AI home system.",
+    "images": [
+      "https://i.ibb.co/pent2.jpg"
+    ]
+  },
+
+  {
+    "id": "guesthouse-001",
+    "title": "Royal Guest Mansion",
+    "category": "GuestHouse",
+    "price": 1200,
+    "location": "Paris",
+    "shortDescription": "Luxury guesthouse with premium service.",
+    "description": "Elegant rooms, fine dining, and concierge service.",
+    "images": [
+      "https://i.ibb.co/guest1.jpg"
+    ]
+  },
+
+  {
+    "id": "flat-001",
+    "title": "Modern Luxury City Flat",
+    "category": "Flat",
+    "price": 450000,
+    "location": "Singapore",
+    "shortDescription": "Smart luxury apartment in city center.",
+    "description": "High-rise apartment with smart home features.",
+    "images": [
+      "https://i.ibb.co/flat1.jpg"
+    ]
+  },
+
+  {
+    "id": "hotel-001",
+    "title": "Royal Atlantis Hotel Suite",
+    "category": "Hotel",
+    "price": 2000,
+    "location": "Dubai",
+    "shortDescription": "7-star ocean view hotel suite.",
+    "description": "Ultra luxury hospitality with underwater rooms and private beach.",
+    "images": [
+      "https://i.ibb.co/hotel1.jpg"
+    ]
+  },
+  {
+    "id": "hotel-002",
+    "title": "Burj Al Arab Royal Suite",
+    "category": "Hotel",
+    "price": 3500,
+    "location": "Dubai",
+    "shortDescription": "World’s most luxurious hotel suite.",
+    "description": "Gold interiors, private butler, and helicopter service.",
+    "images": [
+      "https://i.ibb.co/hotel2.jpg"
+    ]
+  },
+
+  {
+    "id": "car-004",
+    "title": "Bugatti Chiron Super Sport",
+    "category": "Cars",
+    "price": 3200000,
+    "location": "France",
+    "shortDescription": "World-class hypercar performance.",
+    "description": "One of the fastest production cars ever built.",
+    "images": [
+      "https://i.ibb.co/car4.jpg"
+    ]
+  },
+  {
+    "id": "car-005",
+    "title": "Mercedes Maybach S680",
+    "category": "Cars",
+    "price": 280000,
+    "location": "Germany",
+    "shortDescription": "Ultra luxury executive sedan.",
+    "description": "Comfort focused luxury with premium interiors.",
+    "images": [
+      "https://i.ibb.co/car5.jpg"
+    ]
+  },
+
+  {
+    "id": "villa-003",
+    "title": "Mountain Luxury Chalet Villa",
+    "category": "Villa",
+    "price": 900000,
+    "location": "Switzerland",
+    "shortDescription": "Snow mountain luxury villa.",
+    "description": "Wooden modern chalet with ski access and fireplace.",
+    "images": [
+      "https://i.ibb.co/villa3.jpg"
+    ]
+  },
+
+  {
+    "id": "island-003",
+    "title": "Golden Sand Private Island",
+    "category": "Island",
+    "price": 3500000,
+    "location": "Caribbean",
+    "shortDescription": "Golden beach private escape.",
+    "description": "Exclusive island resort with golden sand beach and villas.",
+    "images": [
+      "https://i.ibb.co/island3.jpg"
+    ]
+  }
+]

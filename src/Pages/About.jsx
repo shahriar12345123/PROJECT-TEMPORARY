@@ -379,48 +379,83 @@ export default function About() {
             </Section>
 
             {/* SECTION 7 */}
-            <Section>
-                <h2 className="text-2xl font-semibold mb-4">
-                    7. Private Client Services
-                </h2>
 
-                <p className="text-gray-300 leading-7 mb-4">
-                    We provide dedicated concierge-level support exclusively for elite buyers, ensuring every transaction is handled with complete discretion, precision, and professionalism. Our priority is to deliver a seamless luxury experience from discovery to ownership.
-                </p>
 
-                <p className="text-gray-400 leading-7 mb-4">
-                    Each client is assigned a personal support specialist who assists throughout the entire purchasing journey — from property selection and negotiation to documentation and final transfer. We ensure every detail is managed with care and confidentiality.
-                </p>
+          <Section>
+  <div className="grid md:grid-cols-2 gap-12 items-center">
 
-                <p className="text-gray-400 leading-7 mb-4">
-                    Our private service model is designed for high-net-worth individuals who value privacy, exclusivity, and efficiency. We eliminate unnecessary complexity and provide direct access to premium listings, verified opportunities, and expert guidance.
-                </p>
+    {/* 📷 IMAGE */}
+    <motion.div
+      initial={{ opacity: 0, x: -60 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.7 }}
+      viewport={{ once: true }}
+      className="relative w-full h-[300px] sm:h-[380px] md:h-[520px]
+                 overflow-hidden rounded-2xl shadow-2xl group"
+    >
+      <div className="absolute inset-0 bg-black/20"></div>
 
-                <p className="text-gray-400 leading-7 mb-6">
-                    Whether acquiring a luxury residence or an elite automobile, our concierge team ensures a frictionless experience backed by trust, speed, and personalized attention at every step.
-                </p>
+      <img
+        src="https://i.ibb.co/twWwvkTM/Gemini-Generated-Image-j5fw4bj5fw4bj5fw.png"
+        alt="Architectural Excellence"
+        className="w-full h-full object-cover object-center
+                   transition-transform duration-700 group-hover:scale-110"
+      />
+    </motion.div>
 
-                {/* Highlight Points */}
-                <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-300">
+    {/* 🧊 CONTENT */}
+    <motion.div
+      initial={{ opacity: 0, x: 60 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.7 }}
+      viewport={{ once: true }}
+      className="p-6 md:p-10 rounded-2xl
+                 bg-white/5 backdrop-blur-xl
+                 border border-white/10 shadow-2xl"
+    >
 
-                    <div className="bg-white/5 p-4 rounded-lg">
-                        ✔ Dedicated personal concierge for each client
-                    </div>
+      <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-white">
+        7. Private Client Services
+      </h2>
 
-                    <div className="bg-white/5 p-4 rounded-lg">
-                        ✔ End-to-end transaction assistance
-                    </div>
+      <p className="text-gray-300 leading-7 mb-4">
+        We provide dedicated concierge-level support exclusively for elite buyers, ensuring every transaction is handled with complete discretion, precision, and professionalism.
+      </p>
 
-                    <div className="bg-white/5 p-4 rounded-lg">
-                        ✔ Strict privacy & confidentiality protection
-                    </div>
+      <p className="text-gray-400 leading-7 mb-4">
+        Each client is assigned a personal support specialist who assists throughout the entire purchasing journey — from property selection and negotiation to documentation and final transfer.
+      </p>
 
-                    <div className="bg-white/5 p-4 rounded-lg">
-                        ✔ Exclusive access to premium listings
-                    </div>
+      <p className="text-gray-400 leading-7 mb-6">
+        Our private service model is designed for high-net-worth individuals who value privacy, exclusivity, and efficiency.
+      </p>
 
-                </div>
-            </Section>
+      {/* Highlights */}
+      <div className="grid sm:grid-cols-2 gap-4 text-sm text-gray-300">
+
+        <div className="bg-white/5 p-4 rounded-xl hover:bg-white/10 transition">
+          ✔ Dedicated concierge support
+        </div>
+
+        <div className="bg-white/5 p-4 rounded-xl hover:bg-white/10 transition">
+          ✔ End-to-end handling
+        </div>
+
+        <div className="bg-white/5 p-4 rounded-xl hover:bg-white/10 transition">
+          ✔ Confidential service
+        </div>
+
+        <div className="bg-white/5 p-4 rounded-xl hover:bg-white/10 transition">
+          ✔ Premium listings access
+        </div>
+
+      </div>
+
+    </motion.div>
+
+  </div>
+</Section>
+
 
             {/* SECTION 8 */}
             <Section>
